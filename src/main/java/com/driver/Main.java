@@ -8,7 +8,7 @@ public class Main {
 //        r.random = 0;
 //        System.out.println(r.random);
 //        'random' has private access in 'com.driver.RWOnly'
-        r.setter(70);
+        r.setter(80);
         System.out.println(r.getter());
 
 

@@ -1,12 +1,12 @@
 package com.driver;
 
 public class RWOnly {
-    private int random=9;
+    private int name;
     public int getter(){
-        return this.random;
+        return this.name;
     }
 
     public void setter(int number){
-        random = number;
+        name = number;
     }
 }
